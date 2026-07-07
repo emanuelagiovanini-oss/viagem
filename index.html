@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>florida</title>
+    <title>Aventura Interativa: Havaí ou Flórida?</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>florida</h1>
-    <p>maior litoral dos estados unidos</p>
+    <div class="container">
+        <h1>Minha Trip Interativa ✈️</h1>
+        <div id="cenario-img" class="bg-imagem"></div>
+        <p id="texto-historia">Você acabou de ganhar uma viagem com tudo pago! Para onde você quer ir primeiro?</p>
+        
+        <div class="botoes-container">
+            <button id="btn1" onclick="escolha(1)">Surfar no Havaí 🏄‍♂️</button>
+            <button id="btn2" onclick="escolha(2)">Parques em Orlando (Flórida) 🏰</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
